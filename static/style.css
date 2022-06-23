@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.klass{
+    height: 100vh;
+    background :url(../static/images/op_bg_2.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+}
+
+.heading1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 28vh;
+    word-spacing: 15px;
+    letter-spacing: 10px;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.heading2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;  
+    word-spacing: 15px;
+    letter-spacing: 10px;
+    font-family: 'Grape Nuts', cursive;
+    margin-top: 5vh;
+}
+
+.items{
+    margin: 4vh;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: center;
+}
+
+.item{
+    width: 42%;
+    height: 3px;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-head{
+    font: bold;
+    font-size: 30px;
+}
+
+.cards{
+    margin: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 20%;
+    height: 55vh;
+   
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    font-size: 22px;
+    font: bold;
+}
+
+.rmp{
+    width: 100%;
+    height: 70%;
+}
+
+.techs{
+    margin-bottom: 10vh;
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.tech{
+    width: 13%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: 60%;
+}
+p{
+    font-size: 30px;
+}

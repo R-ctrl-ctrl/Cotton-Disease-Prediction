@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#myFile{
+    padding: 4px 2px;
+    margin-bottom: 10px;
+}
+
+#sbtn{
+    background-color: green;
+    margin-top: 10px;
+    padding: 4px 2px;
+    color: white;
+    border-radius: 5px;
+    width: 30%;
+    outline: none;
+    font: bolder;
+    
+}
+
+#display_img{
+    width: 450px;
+    height: 400px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
